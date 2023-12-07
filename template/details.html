@@ -1,0 +1,28 @@
+{% extends 'base.html' %}
+{% block title %}
+  details
+{% endblock title %}
+
+{% block body %}
+  
+<div class="col-6">
+    <h3>Task to be Completed</h3>
+
+   
+    <div class="card shadow p-3 mb-5 bg-body rounded">
+      <div class="card-body">
+        <h5 class="card-title">{{task.name}}</h5>
+        <p class="card-text">{{task.priority}}</p>
+        <p class="card-text">{{task.date}}</p>
+        
+      </div>
+    </div>
+   
+
+
+
+
+
+
+  </div>
+{% endblock body %}
